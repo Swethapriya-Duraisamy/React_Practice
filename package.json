@@ -1,0 +1,23 @@
+{
+  "name": "react_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "compile":"babel src --watch --presets @babel/react --out-dir public",
+    "server": " nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.19.3",  
+    "@babel/core": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
+
+
